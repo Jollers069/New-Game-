@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Under the Rose</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>Under the Rose</h1>
+      <span class="tag">trade · deal · betray</span>
+    </div>
+    <div id="stats" class="stats"></div>
+    <div class="menu">
+      <button id="btn-help" class="ghost">How to play</button>
+      <button id="btn-new" class="ghost">New game</button>
+    </div>
+  </header>
+
+  <main class="grid">
+    <section class="panel" id="panel-location"></section>
+    <section class="panel" id="panel-market"></section>
+    <section class="panel" id="panel-jobs"></section>
+    <section class="panel" id="panel-factions"></section>
+    <section class="panel" id="panel-travel"></section>
+    <section class="panel" id="panel-log"></section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+  <div id="modal" class="modal" hidden><div class="modal-card" id="modal-card"></div></div>
+
+  <script src="src/engine.js"></script>
+  <script src="src/ui.js"></script>
+</body>
+</html>

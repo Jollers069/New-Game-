@@ -1,0 +1,9 @@
+{
+  "name": "under-the-rose",
+  "version": "0.1.0",
+  "description": "A Dope Wars-style trading game with Sub Rosa-style faction betrayal.",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}
